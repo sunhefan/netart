@@ -5,66 +5,44 @@ body,html{
 	width: 100%;
 }
 body { /* General style rules for the body section */
-	background-color:#00ffff;
-	text-align: center;
 }
 
-
-h1{
-	color: yellow;
-	text-decoration: underline;
-}
-#div1/{
-	/*background-color: gray;*/
-	color: hotpink;
-	margin:5%;
-	padding:6px;
-
+#wrapper1 {
+	background-color:#7FFFD4;
+	max-width: 1170px;
+  margin:0 auto;
 }
 
-h2{
-		color: red;
+#wrapper2 {
+	background-color:	#B2FFFF ;
+	max-width: 1170px;
+  margin:0 auto;
+}
+
+#wrapper3 {
+	background-color:#F9B76C ;
+	max-width: 1170px;
+  margin:0 auto;
+}
+
+#wrapper4 {
+	background-color:#fff;
+	max-width: 1170px;
+  margin:0 auto;
+}
+
+#nav1{
+	padding: 20em;
+	 position: center;
+
+}
+
+a{
+    font-size: 1.5em;
+		padding: 1.3rem;
+    }
+
+a:hover{
+    background-color:#F7E2E1;
+    color:white;
 	}
-
-h3 { /* Matches elements with h3 tag */
-	color: yellow;
-
-}
-
-h4{
-	color: orange;
-}
-h5{color: white;}
-
-#div2{
-	/*background-color: #CC1A54;*/
-  	margin:5%;
-		padding:6px;
-		float:left;
-		width: 20%;
-}
-#div3{
-	/*background-color: #F1ff47;*/
-	  margin:5%;
-		padding:6px;
-		float: right;
-		width: 50%;
-}
-#div4{
-	 /*background-color: #D307FF;*/
-  	margin:5%;
-		padding:6px;
-		clear: both;
-}
-
-
-.SimpleDiv { /* Matches element with id=SimpleDiv */
-	background-color: gray;
-
-	color: hotpink;
-
-
-	border-style: solid groove;
-  border-width: 5px;
-	border-color: green;
-}
