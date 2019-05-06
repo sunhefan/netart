@@ -1,14 +1,20 @@
 /* Ref:  http://www.w3schools.com/css/css_syntax.asp */
+<style>
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+</style>
 
 body,html{
 	height: 100%;
 	width: 100%;
 }
 body { /* General style rules for the body section */
+font-family:  'Ubuntu', sans-serif;
+font-weight: bold;
 }
 
+
 #wrapper1 {
-	background-color:#7FFFD4;
+	*background-color:#F9EC6C;
 	max-width: 1170px;
   margin:0 auto;
 }
