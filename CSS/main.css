@@ -8,21 +8,23 @@ body,html{
 	width: 100%;
 }
 body { /* General style rules for the body section */
+  background-image: url("Images/wallpaper.jpg";)
 font-family:  'Ubuntu', sans-serif;
 font-weight: bold;
 }
 
 
 #wrapper1 {
-width=1000px;height: 1000px;
 max-width: 1170px;
 max-height:1170px;
 margin:0 auto;
+
 }
 
 #wrapper2 {
 	/*background-color:	#B2FFFF ;*/
 	max-width: 1170px;
+	max-height:1170px;
   margin:0 auto;
 }
 
@@ -49,7 +51,7 @@ margin:0 auto;
 	padding: 0;
     margin: 0 0;
     text-align: center;
-    height: 300px;
+    height: 150px;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -68,3 +70,19 @@ margin:0 auto;
     background-color:#F7E2E1;
     color:white;
 	}*/
+
+
+#snow {
+	position: absolute;
+  left: 320px;
+  top: 250px;
+  z-index: 2;
+}
+
+
+
+	#snow4 {
+		position: absolute;
+	  left: 400px;
+	  top: 190px;
+	  z-index: 2;}
