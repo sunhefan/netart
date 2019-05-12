@@ -79,6 +79,13 @@ margin:0 auto;
   z-index: 2;
 }
 
+#snow2{
+	position: absolute;
+  left: 600px;
+  top: 500px;
+  z-index: 2;
+}
+
 
 
 	#snow4 {
